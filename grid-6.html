@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID layout 6</title>
+    <style>
+        body{
+            background-color: wheat;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 150px 200px 200px;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .card{
+            background-color: yellow;
+            border: 5px solid black;
+        }
+        .a{
+            grid-column: span 3;
+            background-color: seagreen;
+        }
+        .b{
+            grid-row: span 2;
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="a card"></div>
+        <div class="b card"></div>
+        <div class="card"></div>
+        <div class="b card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+</html>

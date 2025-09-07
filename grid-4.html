@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID layout 4</title>
+    <style>
+        body{
+            background-color: wheat;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr;
+            grid-template-rows: 100px 100px 300px;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .card{
+            background-color: cornflowerblue;
+            border: 5px solid black;
+        }
+        .a{
+            grid-column: span 3;
+            background-color: black;
+        }
+        .b{
+            grid-column: span 2;
+            background-color: rgb(221, 139, 32);
+        }
+        .c{
+            grid-row: span 2;
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="a card"></div>
+        <div class="b card"></div>
+        <div class="c card"></div>
+        <div class="d card"></div>
+        <div class="d card"></div>
+    </div>
+</body>
+</html>

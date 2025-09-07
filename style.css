@@ -1,0 +1,33 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xxx-large;
+    text-align: center;
+    margin: 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
